@@ -41,7 +41,7 @@ def get_number_of_words(sentence: str, word: str) -> int:
     for i in words:
         if i==word:
             _occurence+=1
-    return _occurence
+    return _occurence 
 
 
 def main() -> None:
